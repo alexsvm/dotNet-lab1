@@ -16,5 +16,10 @@ namespace dotNet_lab1
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            textBox2.Text += Environment.NewLine + "Hello, " + textBox1.Text + "!";
+        }
     }
 }
